@@ -252,9 +252,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
   }
   
+  .modal__servicios{
+    display:flex;
+    justify-content: center;
+    color:white
+  }
   .ir-servicios,
   .ir-habilidades{
     height: 115px;
@@ -296,6 +300,9 @@
     height: 350px;
     background-color:#ffffffb4;
     box-shadow: 5px 5px 15px 5px rgba(107, 105, 105, 0.651);
+  }
+  .cards-banner-one{
+    margin-top: 70px;
   }
   
   .cards-banner-one .content,
