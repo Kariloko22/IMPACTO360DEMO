@@ -270,88 +270,9 @@
    }
   
   /* BOTON VER MAS  */
-   .modal{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-  }
-  
-  .modal{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,0.5);
-    transition: all 500ms ease;
-    opacity: 0;
-    visibility: hidden;
-  }
-  
-  #btn-modal:checked ~ .modal{
-    opacity: 1;
-    visibility: visible;
-  } 
-  .contenedor{
-    width: 400px;
-    height: 300px;
-    margin: auto;
-    background: rgb(185, 175, 182);
-    box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
-    transition: all 500ms ease;
-    position: relative;
-    transform: translateY(-30%);
-    border-radius: 5px;
-  
-  }
-  #btn-modal:checked ~ .modal .contenedor{
-    transform: translateY(0%);
-  } 
-  
-  /* CABEZA DE CARTEL*/
-  
-  .contenedor header{
-    padding: 15px;
-    background: rgb(197, 51, 185);
-    color: rgb(255, 250, 250);
-    margin:auto;
-    text-align: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-  
-  /* X CERRAR*/
-  
-  .contenedor label{
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
-  
-  /* TEXTO INTERNO DE POPUG*/
-  
-  .contenido{
-    width: 100%;
-    padding: 10px; 
-  }
-  .contenido h3,h4{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 20px;
-  }
-  .contenido p{
-    margin-bottom: 7px;
-  }
   #btn-modal{
     display: none;
   }
-  
-  /* ESTILO BOTON */
   
   .lbl-modal{
     display:inline-block;
